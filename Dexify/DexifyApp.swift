@@ -11,7 +11,7 @@ import SwiftUI
 struct DexifyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppEntryView() // Use the new name here
         }
     }
 }
