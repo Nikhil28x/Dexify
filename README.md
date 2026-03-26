@@ -28,9 +28,40 @@ A comprehensive personal wellness and productivity tracker for iOS, built with S
 - Daily check-in system with completion rate tracking
 - Configurable reminders for tasks, water intake, nutrition logging, and consistency
 
+#### Creating a Custom Notification / Goal
+
+1. Navigate to **Goals & Notifications** from the home screen.
+2. Tap the **+** button in the top-right corner to open the *New Goal* sheet.
+3. Fill in the **Goal Details**:
+   - **Goal title** — a short name (e.g. *Meditate daily*).
+   - **Description** *(optional)* — extra context for the goal.
+4. Select a **Category**: Health, Fitness, Nutrition, Mindfulness, Productivity, or Custom.
+5. Set the **Target** — use the **−** / **+** stepper to choose how many days you want to maintain the goal (default: 30).
+6. Toggle **Daily reminder** on if you want a push notification each day to keep you on track.
+7. Tap **Add** to save the goal.
+
+#### Built-in System Reminders
+
+Switch to the **Notifications** tab inside Goals & Notifications to toggle any of the four system-level reminders:
+
+| Reminder | Schedule | Purpose |
+|----------|----------|---------|
+| **Task Reminder** | Daily | Nudge to complete your to-do tasks |
+| **Water Reminders** | Every 3 hrs from 9 am | Stay hydrated throughout the day |
+| **Nutrition Log Reminder** | 1 pm daily | Log your meals before the day slips by |
+| **Consistency Reminder** | Evening | Evening nudge to protect your streak |
+
+Notification permissions are requested on first launch via `NotificationManager`. All reminders use `UNUserNotificationCenter` with calendar-based triggers and can be toggled at any time without leaving the app.
+
 ## Screenshots
 
-*Coming soon*
+| Home | To-Do List | Daily Goals |
+|------|------------|-------------|
+| ![Home](IMG_2884.PNG) | ![To-Do List](IMG_2885.PNG) | ![Daily Goals](IMG_2886.PNG) |
+
+| Gym Tracker | New Goal | Notifications |
+|-------------|----------|---------------|
+| ![Gym Tracker](IMG_2887.PNG) | ![New Goal](IMG_2888.PNG) | ![Notifications](IMG_2889.PNG) |
 
 ## Requirements
 
