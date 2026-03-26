@@ -1,6 +1,6 @@
 # Dexify
 
-A comprehensive personal wellness and productivity tracker for iOS, built with SwiftUI. Dexify combines task management, fitness tracking, nutrition logging, and habit consistency tracking — all wrapped in a sleek dark-themed interface designed to help you build streaks and achieve your goals.
+A comprehensive personal wellness and productivity tracker for iOS, built with SwiftUI. Dexify combines task management, fitness tracking, nutrition logging, and habit consistency tracking — all wrapped in a sleek dark-themed interface designed to help you build streaks and achieve your goals and a Charmander to motivate you while youre on the go.
 
 ## Features
 
